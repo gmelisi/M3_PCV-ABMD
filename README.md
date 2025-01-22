@@ -1,3 +1,13 @@
 # M3_PCV-ABMD
 
-Input files to carry out adiabatic bias MD simulations of the tiotropium unbinding from M3 and M2 receptors using path CVs. The zip includes Amber structure (inpcrd) and topology (prmtop) files to use as initial configurations to launch the simulations, the plumed input file plumed.dat necessary to perform adiabatic bias MD with path CVs, and an Amber input files with MD settings (pcv-abmd.in). The REPARAM.pdb file is the guess path necessary to use the path CVs. Moreover, an additional script reports the command to launch simulations.
+![TOC](https://raw.githubusercontent.com/gmelisi/M3_PCV-ABMD/main/TOC.tiff)
+
+In this repository, input files are provided to carry out Adiabatic Bias Molecular Dynamics ([ABMD](https://doi.org/10.1063/1.478259)) simulations of tiotropium unbinding from M3 and M2 receptors using Path Collective Variables ([PCVs](https://doi.org/10.1063/1.2432340)). 
+
+## Input files
+
+The zip file (deposited as [egg in the Plumed-NEST](https://www.plumed-nest.org/eggs/25/002/)) includes:
+- Amber topologies (`M3_TIO.prmtop` and `M2_TIO.prmtop`) and equilibrated structure (`init.rst7`) files to use as initial configurations for launching the simulations.
+- The PLUMED input file `plumed.dat` necessary to perform ABMD with Path CVs.
+- The Amber input file `pcv-abmd.in`, which contains MD settings.
+- The `REPARAM.pdb` file, which provides the guess path necessary for Path CVs.
