@@ -8,8 +8,16 @@ In this repository, input files are provided to carry out Adiabatic Bias Molecul
 
 ## Input files
 
-The zip file (deposited as [egg in the Plumed-NEST](https://www.plumed-nest.org/eggs/25/002/)) includes:
+The zip file (deposited as [egg in the Plumed-NEST](https://www.plumed-nest.org/eggs/25/002/)) (plumID:25.002) includes:
 - Amber topologies (`M3_TIO.prmtop` and `M2_TIO.prmtop`) and equilibrated structure (`init.rst7`) files to use as initial configurations for launching the simulations.
-- The PLUMED input file `plumed.dat` necessary to perform ABMD with Path CVs.
+- The PLUMED input file `plumed.dat` necessary to perform PCV-ABMD simulations.
 - The Amber input file `pcv-abmd.in`, which contains MD settings.
-- The `REPARAM.pdb` file, which provides the guess path necessary for Path CVs.
+- The `REPARAM.pdb` file, which provides the guess path necessary for PCVs definition.
+
+## Authors and acknowledgements
+- Adriana Coricello
+- Anna Lisa Chiaravalle
+- Maria Musgaard
+- Benjamin Tehan
+- Gian Marco Elisi
+- Giovanni Bottegoni
