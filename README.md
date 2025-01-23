@@ -1,7 +1,7 @@
 # M3_PCV-ABMD
 
 <div align="center">
-  <img src="https://github.com/gmelisi/M3_PCV-ABMD/blob/main/TOC.jpg" alt="TOC" width="500">
+  <img src="https://github.com/gmelisi/M3_PCV-ABMD/blob/main/TOC.jpg" alt="TOC" width="640">
 </div>
 
 In this repository, input files are provided to carry out Adiabatic Bias Molecular Dynamics ([ABMD](https://doi.org/10.1063/1.478259)) simulations of tiotropium unbinding from M3 and M2 receptors using Path Collective Variables ([PCVs](https://doi.org/10.1063/1.2432340)). 
