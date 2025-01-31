@@ -5,7 +5,7 @@
 </div>
 
 In this repository, input files are provided to carry out Adiabatic Bias Molecular Dynamics ([ABMD](https://doi.org/10.1063/1.478259)) simulations of tiotropium unbinding from M3 and M2 receptors using Path Collective Variables ([PCVs](https://doi.org/10.1063/1.2432340)).
-The work considered the experimental data provided by studies of ([Tautermann *et al.*](https://doi/10.1021/jm401219y)) performed with radioligand binding assays of tiotropium and analogues on M3 receptor mutants.
+The work considered the experimental data provided by studies of [Tautermann *et al.*](https://doi/10.1021/jm401219y) performed with radioligand binding assays of tiotropium and analogues on M3 receptor mutants.
 
 ## Input files
 
